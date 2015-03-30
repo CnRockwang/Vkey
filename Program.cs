@@ -12,7 +12,7 @@ namespace Vkey
     class Program
     {
         public static LeagueSharp.Common.Menu _menu;
-        private static Obj_AI_Hero Player;
+       // private static Obj_AI_Hero Player;
         static void Main(string[] args)
         {
             //CustomEvents.Game.OnGameLoad += Game_OnGameLoad;
