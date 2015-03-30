@@ -27,8 +27,6 @@ namespace Vkey
             _menu.SubMenu("vkd_kb").AddSubMenu(new Menu("Key_one", "keyone"));
             _menu.SubMenu("vkd_kb").SubMenu("key1").AddItem(new MenuItem("clckkey1", "key_one").SetValue(new KeyBind(57, KeyBindType.Press)));
             _menu.SubMenu("vkd_kb").AddSubMenu(new Menu("Key_one", "vkey1"));
-
-
             _menu.AddToMainMenu();
 
 
