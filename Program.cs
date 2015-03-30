@@ -11,7 +11,7 @@ namespace Vkey
 {
     class Program
     {
-        public static LeagueSharp.Common.Menu _menu;
+       // public static LeagueSharp.Common.Menu _menu;
        // private static Obj_AI_Hero Player;
         static void Main(string[] args)
         {
