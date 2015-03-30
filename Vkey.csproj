@@ -37,8 +37,16 @@
     <StartupObject>Vkey.Program</StartupObject>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="LeagueSharp.Common">
+      <HintPath>G:\Lsharp\LeagueSharp\System\LeagueSharp.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="SharpDX">
+      <HintPath>G:\Lsharp\LeagueSharp\System\SharpDX.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
